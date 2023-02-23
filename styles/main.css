@@ -1,8 +1,8 @@
-html{
+html {
     background-image: linear-gradient(to left, white 0%, #facd8a 100%);
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     background-color: white;
@@ -13,71 +13,68 @@ body{
     box-shadow: 5px 5px 0 0;
 }
 
-a:focus, a:hover{
+a:focus,
+a:hover {
     font-style: italic;
     color: green;
 }
 
-header h1{
+header h1 {
     font-size: 175%;
     color: maroon;
     text-indent: 30px;
 }
 
-header h2{
+header h2 {
     font-size: 130%;
     color: #800000;
     text-indent: 30px;
 }
 
-
-h3{
-    margin-top: 3em;
-    margin-bottom: 1.5em;
-    margin-right: 2em;
-    margin-left: 2em;
+h3 {
+    margin: 3em 2em 1.5em;
     border: 5px dashed blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
-header img{
+header img {
     float: left;
 }
 
-.shadow{
+.shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
 
-main{
+main {
     clear: left;
 }
 
-main h3{
+main h3 {
     margin-top: 3em;
     font-size: 105%;
 }
 
-main nav{
-    margin:1.5em 2em 1.5em ;
+main nav {
+    margin: 1.5em 2em;
     border: 5px dashed blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
-div.contact{
-    margin: 1.5em 2em 0em 2em;
+div.contact {
+    margin: 1.5em 2em 0;
     border: 5px dotted blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
 
-#list{
+#list {
     line-height: 1.5em;
 }
 
-footer p.copyright{
+footer p.copyright {
     text-align: center;
     font-size: 80%;
 }
