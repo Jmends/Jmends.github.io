@@ -20,6 +20,9 @@ a:hover {
     border: 3px blue;
     border-style: dotted solid;
 }
+header{
+    border-bottom: 2px solid maroon;
+}
 
 header h1 {
     font-size: 175%;
@@ -46,7 +49,7 @@ article {
     width: 70%;
     float: left;
     column-count: 2;
-    column-rule: 2px, dotted maroon;
+    column-rule: 2px dotted maroon;
     column-gap: 2em;
     margin-left: 2em;
     
