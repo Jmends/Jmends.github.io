@@ -25,10 +25,13 @@ aside ol {
 aside ul {
     list-style-type: square;
 }
+nav{
+    border-bottom: 2px solid blue;
+}
 
 #nav_menu ul { 
     list-style-type: none; 
-    border-bottom: 2px solid blue;
+    
 }
 #nav_menu ul li { float: left; }
 #nav_menu ul li a {
