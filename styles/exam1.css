@@ -37,6 +37,9 @@ article {
 article h1{
     column-span: all;
 }
+h1 h2{
+    color: blue;
+}
 aside {
     width: 20%;
     position: fixed;
