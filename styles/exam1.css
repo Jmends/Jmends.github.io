@@ -43,9 +43,7 @@ h1{
 h2{
     color: blue;
 }
-p{
-    font-size: 80%;
-}
+
 aside {
     width: 20%;
     position: fixed;
@@ -66,5 +64,5 @@ footer {
     clear: both;
     border-top: 2px solid blue;
     text-align: center;
-    font-size: 80%;
+    font-size: 14px;
 }
