@@ -37,3 +37,51 @@ table.second th {
 table.second thead tr:first-child {
     border-bottom: 2px solid purple;
 }
+/*-----------------------------------------------------------*/
+table.third {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 10px;
+    
+  }
+  
+  table.third  th, caption.cap{
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+   text-align: center;
+    background-color:lightgreen ;
+  }
+  
+  
+  
+  table.third thead tr:first-child, caption.cap{
+    border-bottom: 3px solid orangered;
+  }
+  table.third caption{
+border-top: 3px solid orangered;
+  }
+  
+  table.third tbody td, caption.cap {
+    padding: 10px;
+  
+    vertical-align: top;
+  }
+  
+ 
+  table.third tbody  {
+    border-bottom: 2px solid orangered;
+  }
+  /*-------------------------------------------------------*/
+  @media only screen and (max-width: 425px) {
+    th, td {
+        display: block;
+    }
+    thead, td.number {
+        display: none;
+        padding: 0;
+    }    
+}
+
+  
