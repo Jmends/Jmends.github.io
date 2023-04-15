@@ -47,7 +47,7 @@ table.third {
   }
   
   table.third  th, caption.cap{
-    font-weight: bold;
+    font-weight: bolder;
     text-align: left;
     padding: 10px;
    text-align: center;
