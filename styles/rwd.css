@@ -1,17 +1,16 @@
-body,
-html {
+html, body {
     margin: 0;
     height: 100%;
     font-size: 100%;
-}
-
-* {
+  }
+  
+  * {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-}
-
-/*---------------------------------------------------------------*/
-.top-nav {
+  }
+  
+  /*---------------------------------------------------------------*/
+  .top-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,22 +21,22 @@ html {
     color: #FFF;
     height: 3em;
     padding: 1em;
-}
-
-.menu {
+  }
+  
+  .menu {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-.menu > li {
+  }
+  
+  .menu > li {
     margin: 0 1rem;
     overflow: hidden;
-}
-
-.menu-button-container {
+  }
+  
+  .menu-button-container {
     display: none;
     height: 100%;
     width: 30px;
@@ -45,15 +44,15 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#menu-toggle {
+  }
+  
+  #menu-toggle {
     display: none;
-}
-
-.menu-button,
-.menu-button::after,
-.menu-button::before {
+  }
+  
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
     display: block;
     background-color: #fff;
     position: absolute;
@@ -61,100 +60,108 @@ html {
     width: 30px;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
-}
-
-.menu-button::before {
+  }
+  
+  .menu-button::before {
     content: '';
     margin-top: -8px;
-}
-
-.menu-button::after {
+  }
+  
+  .menu-button::after {
     content: '';
     margin-top: 8px;
-}
-
-#menu-toggle:checked + .menu-button-container .menu-button::before {
-    margin-top: 0;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
     transform: rotate(405deg);
-}
-
-#menu-toggle:checked + .menu-button-container .menu-button {
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
     background: rgba(255, 255, 255, 0);
-}
-
-#menu-toggle:checked + .menu-button-container .menu-button::after {
-    margin-top: 0;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
     transform: rotate(-405deg);
-}
-/*----end of menu*/
-/* question 7 need to ask about it**/
-section a {
+  }
+  /*----end of menu*/
+  
+  /* Link styles */
+  a {
     text-decoration: none;
     color: white;
-}
-.menu a:hover,
-a.current {
+  }
+  
+  .menu a:hover,
+  .menu a.current {
     text-decoration: underline;
-}
-article {
-    padding: 0.1em;
-}
-article h2 {
+  }
+  
+  /* Article styles */
+  article {
+    padding: 0 1em;
+  }
+  
+  article h2 {
     font-size: 1.25em;
-}
-article p {
+  }
+  
+  article p {
     font-size: 1em;
-}
-article img {
+  }
+  
+  article img {
     margin: auto;
     display: block;
     width: 100%;
     max-width: 760px;
-}
-footer {
+  }
+  
+  /* Footer styles */
+  footer {
     border-top: 2px solid #f46b45;
     text-align: center;
-    font-size: 0.8em;
-}
-
-/* @media only screen and (max-width:700px) {
+    font-size: .8em;
+  }
+  
+  @media only screen and (max-width: 700px) {
     .menu-button-container {
-        display: flex;
+      display: flex;
     }
     .menu {
-        position: absolute;
-        top: 0;
-        margin-top: 50px;
-        left: 0;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
+      position: absolute;
+      top: 0;
+      margin-top: 50px;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
     }
     #menu-toggle ~ .menu li {
-        height: 0;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      height: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
     #menu-toggle:checked ~ .menu li {
-        border: 1px solid #333;
-        height: 2.5em;
-        padding: 0.5em;
-        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      border: 1px solid #333;
+      height: 2.5em;
+      padding: 0.5em;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
     .menu > li {
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        padding: 0.5em 0;
-        width: 100%;
-        color: white;
-        background-color: #222;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0.5em 0;
+      width: 100%;
+      color: white;
+      background-color: #222;
     }
     .menu > li:not(:last-child) {
-        border-bottom: 1px solid #444;
+      border-bottom: 1px solid #444;
     }
-
-} */
+  }
