@@ -51,7 +51,11 @@ textarea {
     width: 35em;
 }
 
-#buttons input {
-    width: 10em;
+#buttons {
     text-align: center;
+}
+
+#buttons input[type="submit"],
+#buttons input[type="reset"] {
+    width: 10em;
 }
