@@ -2,18 +2,18 @@ fieldset {
     width: 40em;
     margin-top: 1em;
     margin-bottom: 1em;
-    padding-top: .5em;
+    padding-top: 0.5em;
 }
 
 legend {
     color: #931420;
     font-weight: bold;
     font-size: 85%;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
 }
 
-label,
 input,
+label,
 select {
     font-size: 90%;
 }
@@ -26,8 +26,8 @@ label {
 
 input,
 select {
-    margin-left: .5em;
-    margin-bottom: .5em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 input:required {
@@ -51,11 +51,11 @@ textarea {
     width: 35em;
 }
 
-#buttons {
+#button-container {
     text-align: center;
 }
 
-#buttons input[type="submit"],
-#buttons input[type="reset"] {
+#button-container input[type="submit"],
+#button-container input[type="reset"] {
     width: 10em;
 }
